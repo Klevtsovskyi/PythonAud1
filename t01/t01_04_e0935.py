@@ -6,6 +6,4 @@ k = n % 100
 d1 = k // 10
 d2 = k % 10
 
-print(d0)
-print(d1)
-print(d2)
+print(d0, d1, d2, sep="\n")

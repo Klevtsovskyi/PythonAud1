@@ -1,8 +1,10 @@
-
 x = int(input("Введіть x: "))
 y = int(input("Введіть y: "))
 
+# z = x
+# x = y
+# y = z
 x, y = y, x
 
-print("x:", x)
-print("y:", y)
+print("x = %i" % x)
+print("y =", y)
