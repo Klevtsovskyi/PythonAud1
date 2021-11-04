@@ -1,6 +1,7 @@
-
-
-# n * m = n + ... + n = n + n * (m - 1)
+# n * m = product(n, m)
+# n * m = m + m + ... + m
+# n * m = (n - 1) * m + m
+# 1 * m = m
 
 
 def prod(n, m):

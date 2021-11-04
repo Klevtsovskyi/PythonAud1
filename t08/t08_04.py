@@ -18,7 +18,7 @@ def replace(s, old, new):
     i = s.find(old)
     if i == -1:
         return s
-    return s[:i] + new + replace(s[i+1:], old, new)
+    return s[:i] + new + replace(s[i + len(old):], old, new)
 
 
 if __name__ == '__main__':
