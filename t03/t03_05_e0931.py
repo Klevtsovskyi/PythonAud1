@@ -11,4 +11,4 @@ while n != 0:
     s += d
     p *= d
 
-print("%.3f" % (p/s))
+print("%.3f" % (p / s))
